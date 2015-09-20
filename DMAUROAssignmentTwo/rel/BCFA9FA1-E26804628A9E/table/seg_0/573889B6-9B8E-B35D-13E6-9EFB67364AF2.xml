@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="573889B6-9B8E-B35D-13E6-9EFB67364AF2" name="Employee">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-14 23:02:22 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmpNO" id="B50DE33D-3D13-4694-EAF9-C1724FFF1346">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-14 23:03:52 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpFirstName" id="DDD9418A-B2E9-F8AF-68D3-13E2C38EE065">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:16:30 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpLastName" id="5B13F645-4851-2BFE-1F09-809AB83310CD">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:16:56 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpPhone" id="398E28DE-6537-BF25-D578-4A3C2AB2247C">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:21:02 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpEmail" id="B74D1405-7978-D1AB-A12E-6B0A8E6006AC">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:25:26 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CCFD04C-CFB1-57E4-765B-17715DEA9770" name="Employee_PK">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-14 23:03:52 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B50DE33D-3D13-4694-EAF9-C1724FFF1346"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

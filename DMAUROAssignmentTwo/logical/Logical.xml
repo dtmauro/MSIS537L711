@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="036BCE8B-3328-5A50-2116-DCD75515A168" mainViewID="7860ACBC-4DCB-5C8C-333D-C932CE2459F3">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-14 22:07:29 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

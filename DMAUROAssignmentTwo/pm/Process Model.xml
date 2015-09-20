@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="9DCD583B-AB4F-FFC7-D089-B04B6CC83D86">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-14 22:07:30 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

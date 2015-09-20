@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="407B32D0-D649-493C-F0B1-80F1F5137D8F">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-14 22:07:30 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

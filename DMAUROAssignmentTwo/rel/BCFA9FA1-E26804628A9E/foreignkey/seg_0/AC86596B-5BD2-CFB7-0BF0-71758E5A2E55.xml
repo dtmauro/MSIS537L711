@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AC86596B-5BD2-CFB7-0BF0-71758E5A2E55" containerWithKeyObject="783A2295-1CEE-8605-09F2-57B02414D3D8" localFKIndex="78D89D5F-51B9-2C0D-9F17-B8A991031B4F" name="OrderTbl_Customer_FK">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:44:10 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>74EA9F41-746D-18DF-5250-511D8E5744E7</referredTableID>
+<keyObject>60C74130-89D7-3065-3762-69BFC503F082</keyObject>
+<referredKeyID>60C74130-89D7-3065-3762-69BFC503F082</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

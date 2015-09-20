@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="783A2295-1CEE-8605-09F2-57B02414D3D8" name="OrderTbl">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:26:01 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OrdNo" id="0D443AF1-4C54-0CF1-1A0A-0F9972EEA568">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:27:16 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrdDate" id="5CCD4072-61E9-2F5C-EC7D-8F0610CEB8DA">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:27:54 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustNo" id="CADA7194-A9D4-8259-347C-7087255D03BB">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:28:59 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC86596B-5BD2-CFB7-0BF0-71758E5A2E55" referredColumn="F18DF86B-3B46-7A62-DD9A-CD41E482EA4C"/>
+</associations>
+</Column>
+<Column name="EmpNo" id="6D8D7AF7-DA45-E4C2-1900-9FE109577697">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:29:18 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CEF6712-D01A-2CA8-C7CF-3EE72A35F0C8" referredColumn="B50DE33D-3D13-4694-EAF9-C1724FFF1346"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB29E338-085A-0049-77BC-C1270C38B4AC" name="OrderTbl_PK">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:27:16 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D443AF1-4C54-0CF1-1A0A-0F9972EEA568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DA34A31-EF3B-8BE3-0EF5-C6425CC5FDD2" name="OrderTbl_Employee_FK">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:43:38 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D8D7AF7-DA45-E4C2-1900-9FE109577697"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78D89D5F-51B9-2C0D-9F17-B8A991031B4F" name="OrderTbl_Customer_FK">
+<createdBy>stereo</createdBy>
+<createdTime>2015-09-15 01:44:10 UTC</createdTime>
+<ownerDesignName>DMAUROAssignmentTwo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CADA7194-A9D4-8259-347C-7087255D03BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
